@@ -1,0 +1,5 @@
+<?xml version="1.0"?>
+<launch>
+    <rosparam command="load" file="$(find two_d_localization)/config/wheel_odometry.yaml" ns="wheel_odometry"/>
+    <node name="wheel_odometry" pkg="two_d_localization" type="wheel_odometry_node" output="screen" />
+</launch>
