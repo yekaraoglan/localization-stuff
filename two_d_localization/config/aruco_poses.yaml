@@ -1,0 +1,7 @@
+# aruco_7 is given as an example
+aruco_7:
+  pose:
+    x: 5.0
+    y: 3.0
+    theta: 3.1416
+

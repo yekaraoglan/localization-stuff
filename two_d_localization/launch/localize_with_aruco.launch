@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+<launch>
+    <rosparam command="load" file="$(find two_d_localization)/config/aruco_localization.yaml" ns="aruco_localization"/>
+    <rosparam command="load" file="$(find two_d_localization)/config/aruco_poses.yaml" ns="aruco_localization/markers"/>
+    <node name="aruco_localize" pkg="two_d_localization" type="aruco_localizer.py" output="screen" />
+</launch>

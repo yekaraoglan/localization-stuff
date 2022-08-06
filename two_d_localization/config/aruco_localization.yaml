@@ -1,0 +1,16 @@
+out_odom_topic: /aruco_odom
+in_aruco_topic: /fiducial_transforms
+
+base_to_cam:
+  position:
+    x: 0.4
+    y: 0.0
+    z: 0.2
+  orientation:
+    x: 0.0
+    y: 0.0
+    z: 0.0
+    w: 1.0
+
+parent_tf: 'odom'
+child_tf: 'base_link'
